@@ -1,5 +1,6 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #f9f7fe !important;
+  margin:0 auto !important;
 }
 
 .App {
@@ -8,6 +9,7 @@ body {
   margin:60px;
   padding:50px;
   border-radius: 15px;
+  max-width: 788px;
 }
 
 .App-logo {
@@ -27,4 +29,87 @@ footer{
 
 footer a {
   color: #885df1;
+}
+.search-input{
+  background-color: #f9f7fe !important;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+form {
+  margin: 40px 0 0; 
+  padding: 0px 0px 30px;
+}
+
+.btn-primary{
+  background-color:  #885df1 !important;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 0px;
+  border: none;
+  cursor: pointer;
+}
+ul{
+  padding: 0px !important;
+  margin: 0px;
+  text-align: left !important;
+  line-height: 20px;
+  color: rgba(39, 33, 66, 0.4);
+}
+li{
+  list-style: none;
+  margin: 0px !important;
+}
+
+.displayedcity {
+  font-size: 20px;
+  color: black;
+  margin: 20px 0px 10px;
+  font-size: 38px;
+  font-weight: 700px;
+  text-align:left !important;
+}
+
+strong{
+color: rgb(246, 82, 130);
+font-weight: bold;
+}
+.weather-forecast-temperature-max, 
+.weather-forecast-temperature-min {
+color: rgb(246, 82, 130);
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+font-weight: 700;
+}
+.weather-forecast-temperature-max{
+opacity: 80% !important;
+}
+
+.unit{
+  font-size: 28px;
+  color:black;
+  position:relative;
+}
+.temperature {
+  font-size: 80px;
+  color: black;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.canvas{
+  margin:10px 0 10px 0;
+  display: block;
+  max-width: 100%;
+}
+
+.WeatherForecastPreview { 
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: bold;
+  line-height:20px;
+  text-align: center;
+  font-size: 16px;
+}
+.tiny-card{
+  padding: 12px 0px 12px 0px;
+  text-align: center !important;
 }
