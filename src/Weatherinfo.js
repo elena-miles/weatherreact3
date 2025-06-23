@@ -10,13 +10,8 @@ export default function Weatherinfo() {
                 <div className="col-6">
                 <h1 className="displayedcity">London</h1>
                     <ul>
-                        <li>
-                            <span>Wednesday,</span>
-                            <span> 15:00</span>
-                        </li>
-                        <li><span>Sunny</span></li>
-                        <li>Humidity:<strong>40%</strong></li>
-                        <li>Wind:<strong>5km/h</strong></li>
+                        <li> <span>Monday</span> <span>15:00</span> ,<span>Sunny</span></li>
+                        <li> <span>Humidity:<strong>40%</strong></span>,<span>Wind:<strong>5km/h</strong></span></li>
                     </ul>
                 </div>
             <div className="col-lg-6 col-md-6 col-sm-6">

@@ -7,6 +7,7 @@ import WeatherForecastpreview from './WeatherForecastpreview.js';
 import React from 'react';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -26,10 +27,12 @@ function App() {
             </div>
           </div>
         </form>
+        <div className="line-break"></div>
         < Weatherinfo />
         < WeatherForecastpreview />
       </main>
 
+      <div className="line-break"></div>
       <footer>
       <p className="footer-message"> This project was coded by <a href="https://github.com/elena-miles" target="blank" rel="noopener noreferrer">Elena Miles</a> and is open sourced on <a href="https://github.com/elena-miles/weatherreact3" target="_blank" rel="noopener noreferrer">github</a> and hosted with <a href="https://emweatherreact3.netlify.app/" target="_blank" rel="noopener noreferrer">netlify</a>.</p>
       </footer>
