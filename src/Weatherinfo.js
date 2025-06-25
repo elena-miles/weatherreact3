@@ -15,14 +15,15 @@ export default function Weatherinfo() {
                     </ul>
                 </div>
             <div className="col-lg-6 col-md-6 col-sm-6">
-                <div className="temperature-container d-flex justify-content-end align-items-center">
+                <div className="temperature-container flex-row d-flex justify-content-end align-items-center">
                 <img className="temperature-icon"
                             src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/01d.png"
                             alt="weather icon"
                             width="52"
                             height="52"
                             target="_blank"
-                            rel="noopener noreferrer"/>
+                            rel="noopener noreferrer"
+                            icon= "clear-sky-day"/>// fix this
 
                     <div>
                         <span className="temperature">18</span>

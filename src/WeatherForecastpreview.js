@@ -1,13 +1,14 @@
 import React from "react";
 
 export default function WeatherForecastpreview(props) {
+
     if (!props.data) {
           return null;
         }
 
         function icon() {
           return (
-            <WeatherIcon code={props.data.condition.icon} size={38} />
+            <img src={`https://shecodes-assets.s3.amazonaws.com/api/weather/icons/${props.data.condition.icon}.png`}size={38} alt="icon"/>
           );
         }
 
@@ -32,13 +33,13 @@ export default function WeatherForecastpreview(props) {
 
 
     return (
-            <div className="WeatherForecast row d-flex flex-row justify-content-center"> 
-              <div className="col-2">
+            <div className="WeatherForecast col-2"> 
+              <div className="text-center">
 
                 <div className="WeatherForecastPreview text-center">
                   <div className="weather-forecast-row row">    
                     <div className="Forecast-time">{day()}</div>
-                    <div className="text-center"><WeatherIcon code={props.data.condition.icon} size={38}/></div>
+                    <div className="text-center"><img src={`https://shecodes-assets.s3.amazonaws.com/api/weather/icons/${props.data.condition.icon}.png`} width="38" alt="icon"/></div>
                         <div className="weather-forecast-temperature">
                             <span className="weather-forecast-temperature-max">{maxTemperature()}</span>
                             <span className="weather-forecast-temperature-min">{minTemperature()}</span>

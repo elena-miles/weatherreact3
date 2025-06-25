@@ -4,11 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import Weatherinfo from './Weatherinfo.js';
 import WeatherForecastpreview from './WeatherForecastpreview.js';
-import React from 'react';
+import react from 'react';
 
 
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-Logo">
@@ -29,7 +30,55 @@ function App() {
         </form>
         <div className="line-break"></div>
         < Weatherinfo />
-        < WeatherForecastpreview />
+      <div className="row d-flex flex-row justify-content-center">
+
+          < WeatherForecastpreview data={{
+            time: 1719235200,
+            temperature: {
+            maximum: 26,
+            minimum: 18,
+            },
+            condition: {
+            icon: "clear-sky-day"
+            }}} />
+             < WeatherForecastpreview data={{
+            time: 1719235200,
+            temperature: {
+            maximum: 26,
+            minimum: 18,
+            },
+            condition: {
+            icon: "clear-sky-day"
+            }}} />
+             < WeatherForecastpreview data={{
+            time: 1719235200,
+            temperature: {
+            maximum: 26,
+            minimum: 18,
+            },
+            condition: {
+            icon: "clear-sky-day"
+            }}} />
+             < WeatherForecastpreview data={{
+            time: 1719235200,
+            temperature: {
+            maximum: 26,
+            minimum: 18,
+            },
+            condition: {
+            icon: "clear-sky-day"
+            }}} />
+             < WeatherForecastpreview data={{
+            time: 1719235200,
+            temperature: {
+            maximum: 26,
+            minimum: 18,
+            },
+            condition: {
+            icon: "clear-sky-day"
+            }}} />
+
+      </div>
       </main>
 
       <div className="line-break"></div>
