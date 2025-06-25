@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 export default function Weatherinfo() {
     return (
     <div className="Weatherinfo">
@@ -16,15 +14,8 @@ export default function Weatherinfo() {
                 </div>
             <div className="col-lg-6 col-md-6 col-sm-6">
                 <div className="temperature-container flex-row d-flex justify-content-end align-items-center">
-                <img className="temperature-icon"
-                            src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/01d.png"
-                            alt="weather icon"
-                            width="52"
-                            height="52"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            icon= "clear-sky-day"/>// fix this
-
+                    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png" alt="Weather icon" className="weather-icon" />
+                    
                     <div>
                         <span className="temperature">18</span>
                         <span className="unit">°C</span>
