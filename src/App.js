@@ -6,8 +6,6 @@ import Weatherinfo from './Weatherinfo.js';
 import WeatherForecastpreview from './WeatherForecastpreview.js';
 import react from 'react';
 
-
-
 function App() {
   
   return (
@@ -42,7 +40,7 @@ function App() {
             icon: "clear-sky-day"
             }}} />
              < WeatherForecastpreview data={{
-            time: 1719235200,
+            time: 1719235260,
             temperature: {
             maximum: 26,
             minimum: 18,
@@ -51,7 +49,7 @@ function App() {
             icon: "clear-sky-day"
             }}} />
              < WeatherForecastpreview data={{
-            time: 1719235200,
+            time: 1719235280,
             temperature: {
             maximum: 26,
             minimum: 18,
@@ -60,7 +58,7 @@ function App() {
             icon: "clear-sky-day"
             }}} />
              < WeatherForecastpreview data={{
-            time: 1719235200,
+            time: 1719235300,
             temperature: {
             maximum: 26,
             minimum: 18,
@@ -69,7 +67,7 @@ function App() {
             icon: "clear-sky-day"
             }}} />
              < WeatherForecastpreview data={{
-            time: 1719235200,
+            time: 1719235320,
             temperature: {
             maximum: 26,
             minimum: 18,

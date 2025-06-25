@@ -1,6 +1,7 @@
 body {
   background-color: #f9f7fe !important;
   margin: auto !important;
+  font-family: 'Cerebri Sans', Helvetica, Arial, sans-serif !important;
 }
 
 .App {
@@ -84,14 +85,11 @@ li{
   margin: 0px !important;
 }
 
-.displayedcity h1 {
-  font-family: 'Cerebri Sans', Helvetica, Arial, sans-serif;
-  font-weight: bolder !important;
-  color: black !important;
-  text-align:left !important;
+h1 {
+  color: black;
   margin: 20px 0 10px 0;
   line-height: 29px;
-  font-weight: bold;
+  font-weight: bold !important;
   font-size: 38px;
   line-height: 48px;
 }
@@ -110,7 +108,7 @@ font-weight: 700;
 }
 .weather-forecast-temperature-min{
 opacity: 70% !important;
-margin-right:10px;
+margin-left:10px;
 }
 
 .temperature {
