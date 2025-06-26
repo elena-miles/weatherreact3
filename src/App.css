@@ -106,10 +106,10 @@ font-size: 18px;
 line-height: 27px;
 font-weight: 700;
 }
-.weather-forecast-temperature-min{
-opacity: 70% !important;
-margin-left:10px;
+.weather-forecast-temperature-min {
+  opacity: 70%;
 }
+
 
 .temperature {
   font-size: 80px;
@@ -142,4 +142,33 @@ margin-left:10px;
 .tiny-card{
   padding: 12px 0px 12px 0px;
   text-align: center !important;
+}
+
+.weather-forecast-temperature {
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  .weather-forecast-temperature {
+    font-size: 0.5rem !important;
+    font-weight:lighter !important;
+    margin:0;
+    padding:0;
+  }
+@media (max-width: 576px) {
+  .weather-forecast-temperature-min{
+    opacity: 1%;
+  }
+  }
+@media (max-width: 576px) {
+  .temperature {
+    font-size: 50px;
+    margin-left:0;
+  }
+  .unit {
+    font-size: 20px;
+    top: -24px;
+  }
+  
+}
 }

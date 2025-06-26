@@ -1,10 +1,8 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import axios from 'axios';
 import Weatherinfo from './Weatherinfo.js';
 import WeatherForecastpreview from './WeatherForecastpreview.js';
-import react from 'react';
 
 function App() {
   
